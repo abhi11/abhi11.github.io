@@ -15,7 +15,6 @@ I'll try to cover everything under a single post about AppStream and what this p
 AppStream is a cross-distro specification for software metadata, as well as libraries reading the data.
 The metadata of an archive is kept in the ftp servers, where the packages reside too.
 And these metadata is kept in a format that is readable by AppStream.
-So, AppStream specifies the format in which the metadata about the packages should be kept.
 AppStream allows **Software Center**-like applications like Ubuntu Software Center or Apper to talk to these servers
 and provide informations to the users.
 AppStream makes cross-distribution possible as it specifies a standard for the metadata and also provide libraries which
