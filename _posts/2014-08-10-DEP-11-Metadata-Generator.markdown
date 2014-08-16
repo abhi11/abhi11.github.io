@@ -7,13 +7,14 @@ categories: jekyll update
 ---
 To begin with, here's something Google Summer of Code. The above project is a part of Google Summer of Code '14
 which is a well known program for promoting free and open source softwares among students. The project is being
-supervised by Matthias Klump who is a contributor to Debian.
+supervised by Matthias Klumpp who is a Debian Developer([DD](https://wiki.debian.org/DebianDeveloper))
 
-I'll try to cover everything under a single post about AppStream and what this project aims to achieve in a layman's terms.
+I'll try to cover everything under a single post about AppStream and what this project aims to achieve in layman's terms.
 
 ###AppStream###
-It is a bunch of libraries which talk to the ftp servers where an archive is hosted. The metadata of this archive 
-is kept in the servers too. And these metadata is kept in a format that is readable by AppStream.
+AppStream is a cross-distro specification for software metadata, as well as libraries reading the data.
+The metadata of an archive is kept in the ftp servers, where the packages reside too.
+And these metadata is kept in a format that is readable by AppStream.
 So, AppStream specifies the format in which the metadata about the packages should be kept.
 AppStream allows **Software Center**-like applications like Ubuntu Software Center or Apper to talk to these servers
 and provide informations to the users.
