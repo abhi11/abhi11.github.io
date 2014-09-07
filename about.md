@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+<img style="float: right" src="/_img/profile.jpg?raw=true"/>
 
 I am Abhishek. I live in Pune,India and I love my city. I am an engineering under-grad at Pune Institute of Computer Technology. I love programming and I am an open-source enthusiast and try to use everything that is free and open. Some projects that I have done can be found on my [GitHub](https://github.com/abhi11) account.
 
