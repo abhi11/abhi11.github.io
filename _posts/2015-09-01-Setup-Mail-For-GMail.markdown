@@ -14,8 +14,7 @@ Keysiging party at this years DebConf, i.e [DebConf '15](http://debconf15.debcon
 drove me to setup my system's mail. Now I can send keysigning emails using caff through
 my system's mail using gmail's smtp server.
 
-To setup the same on your system, follow the following steps to setup your systems
-mail(Debian 8, Jessie) to send email via GMail.
+To setup the same on your system((Debian 8, Jessie)), follow the following steps:
 
 ### Step 1
 Run the following command as root
@@ -27,11 +26,11 @@ After hitting enter, you will see a window appear on the terminal screen
 
 * Select "mail sent by smarthost; recieved via SMTP or fetchmail" and hit enter
 * Next write "gmail.com" for "System mail name"
-* Next put "127.0.0.1" in IP-address to listen on for SMTP connections
-* Leave the field "Other destinations for which mail is accepted" comletely empty
+* Next put "127.0.0.1" in filed "IP-address to listen on for SMTP connections"
+* Leave the field "Other destinations for which mail is accepted" completely empty
 * Leave the "Machines to relay mail for" empty
-* Now write "smtp.gmail.com::587" for the fiels "IP address or host name of the outgoing smarthost"
-* Hit "Yes" for "Hide local mail name in outgoing mail?"
+* Now write "smtp.gmail.com::587" for the field "IP address or host name of the outgoing smarthost"
+* Hit "Yes" for "Hide local mail name in outgoing mail ?"
 * Keep "Visible domain name for local users" as "localhost"
 * Hit "No" for the field "Keep number of DNS-queries minimal"
 * Select "mbox format in /var/mail/"
@@ -59,7 +58,7 @@ Edit **/etc/email-addresses** and add following line:
 Save the file
 
 ### Step 5
-You need to make your gmail account's less secure app access on.
+You need to make your gmail account's **less secure app access** on.
 To do that, login to your gmail account and then visit the following link:
 
 [Less Secure App access](https://www.google.com/settings/security/lesssecureapps)
@@ -82,8 +81,8 @@ For that run the following command(not root):
 
 
 * Hit enter
-* write your message
-* Press <Ctrl-D>, **Cc** field will appear
+* Write your message
+* Press Ctrl-D, **Cc** field will appear
 
 Prompt should look like this:
 
